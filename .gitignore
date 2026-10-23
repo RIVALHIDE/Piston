@@ -1,0 +1,21 @@
+# Dependencies
+node_modules/
+api/node_modules/
+cli/node_modules/
+
+# Installed language runtimes (large binary data, not source)
+data/
+
+# Builder output
+builder/build/
+
+# Piston internal runtime data
+_piston/
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
